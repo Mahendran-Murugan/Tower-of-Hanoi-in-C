@@ -14,6 +14,7 @@ void towerOfHanoi(int n, int a, int b, int c)
 
 int main()
 {
+    cout << "Here 1 is Source tower\n2 is Auxillary Tower\n3 is Destination Tower" << endl;
     towerOfHanoi(3, 1, 2, 3);
     cout << counter;
     return 0;
